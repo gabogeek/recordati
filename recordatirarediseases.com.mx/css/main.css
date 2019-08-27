@@ -1,0 +1,526 @@
+@font-face {
+    font-family: frutiger_light;
+    src: url(../font/Frutiger_LT_45_Light.ttf);
+}
+@font-face {
+    font-family: frutiger_roman;
+    src: url(../font/Frutiger_LT_55_Roman.ttf);
+}
+@font-face {
+    font-family: frutiger_bold;
+    src: url(../font/Frutiger_45_Bold.otf);
+}
+@font-face {
+    font-family: mathilde;
+    src: url(../font/mathilde.otf);
+}
+#header {
+	width: 100%;
+	max-height: 690px;
+	background: url(../img/home_responsive.jpg) ;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+.img_home {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+#cont_menu {
+	width: 784px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	right: -3px;
+}
+.menu_principal {
+	width: 100%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.menu_principal li {
+	width: 180px;
+	height: 35px;
+	font-family: frutiger_roman;
+	font-size: 15px;
+	background-color: #000;
+	padding: 7px 0 0 0;
+	text-align: center;
+	float: left;
+}
+.menu_principal li a {
+	color: #fff;
+}
+.menu_secundario {
+	width: 600px;
+	margin: 6px 0 0 0;
+	padding: 0;
+	display: none;
+}
+.menu_secundario li {
+	width: 180px;
+	font-family: frutiger_roman;
+	font-size: 15px;
+	background-color: #8797b1;
+	padding: 7px 0 6px 0;
+	text-align: center;
+	float: left;
+}
+.menu_secundario li a {
+	color: #fff;
+}
+#cont_menu .bandera {
+	float: left;
+}
+.page-footer {
+	background-color: #103063;
+}
+.footer-copyright .container .terminos {
+	font-family: frutiger_light;
+	font-size: 12px;
+	text-align: center;
+}
+.link_footer {
+	widows: 200px;
+	font-family: frutiger_roman;
+	font-size: 15px;
+}
+.link_footer li {
+	margin-bottom: 10px;
+}
+.link_footer li a {
+	color: #fff;
+}
+.menu {
+	background-color: transparent;
+	position: absolute;
+}
+.menu #nav-mobile li {
+	background-color: #000;
+}
+#icon_menu {
+	width: 46px;
+	height: 46px;
+	background: url(../img/icon_menu.png);
+	-webkit-background-size: 46px 46px;
+	background-size: 46px 46px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.side-nav {
+	background-color: #103063;
+	font-family: frutiger_roman;
+	font-size: 17px;
+}
+.side-nav li a {
+	color: #fff;
+}
+.side-nav li .sup_ul {
+	margin-left: 15px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+.logo_recordati {
+	padding: 115px 0 0 80px;
+}
+.textos_header .text_logo {
+	font-family: frutiger_roman;
+	font-size: 25px;
+	padding: 0 0 0 90px;
+}
+.textos_header .leyenda {
+	font-family: mathilde;
+	font-size: 70px;
+	line-height: 40px;
+	padding: 130px 0 0 90px;
+}
+.content_cuadro {
+	position: relative;
+	/*left: -11px;*/
+	/*bottom: -50px;*/
+}
+#cuadro_rojo {
+	max-width: 711px;
+	min-height: 315px;
+	min-width: 390px;
+	background-color: #de1e3d;
+	font-family: frutiger_light;
+	font-size: 23px;
+	color: #fff;
+	padding: 40px 40px 40px 90px;
+	float: left;
+}
+#flecha {
+	margin-top: 25px;
+	margin-left: 15px;
+	float: left;
+}
+.informacion {
+	min-height: 330px;
+	margin: 0;
+	padding: 0;
+}
+.informacion p {
+	max-width: 500px;
+	font-family: frutiger_light;
+	font-size: 18px;
+	padding: 0 0 0 90px;
+}
+.informacion #btn_solicitar {
+	width: 200px;
+	height: 37px;
+	padding-top: 5px;
+	border: 3px solid #103063;
+	background-color: #fff;
+	font-family: frutiger_bold;
+	color: #103063;
+	font-size: 15px;
+	margin-left: 90px;
+}
+#prioridad {
+	height: 238px;
+}
+#text_prioridad {
+	min-height: 238px;
+	font-family: frutiger_roman;
+	font-size: 24px;
+	color: #fff;
+	background-color: #103063;
+	padding: 60px;
+	margin: 0;
+}
+#productos .texto_productos {
+	font-family: frutiger_light;
+	font-size: 50px;
+	color: #103063;
+	text-align: center;
+}
+#mision  {
+	min-height: 380px;
+	background-color: #d8dbe3;
+}
+#mision .text_mision_1 {
+	font-family: frutiger_light;
+	font-size: 25px;
+	color: #000;
+	padding: 20px 20px 0 90px;
+}
+#mision .text_mision_1 span {
+	font-size: 35px;
+	color: #103063;
+}
+#mision .text_mision_2 {
+	font-family: mathilde;
+	font-size: 70px;
+	line-height: 50px;
+	color: #de1e3d;
+	text-align: center;
+	padding: 20px 70px 20px 70px;
+}
+/*---------------------------------------------------> Acerca de nosotros*/
+#acerca_de_nosotros {
+	width: 100%;
+	min-height: 341px;
+	background: #103063 url(../img/r.png)no-repeat;
+	background-position: left top;
+	background-size: 341px 341px;
+	position: relative;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+.logo_recordati_2 {
+	margin: 115px 0 0 80px;
+}
+#text_logo_acerca {
+	font-family: frutiger_roman;
+	font-size: 15px;
+	color: #fff;
+	margin: 20px 0 30px 90px;
+}
+#texto_acerca_de_nosotros p {
+	font-family: frutiger_light;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+#texto_acerca_de_nosotros p span {
+	font-size: 40px;
+	line-height: 80px;
+	color: #103063;
+}
+/*---------------------------------------------------> /Acerca de nosotros*/
+/*---------------------------------------------------> Grupo*/
+#texto_grupo p {
+	font-family: frutiger_light;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+#texto_grupo p span {
+	font-size: 40px;
+	line-height: 80px;
+	color: #103063;
+}
+.container_directivos {
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+.directivos .col {
+	min-width: 240px;
+}
+.directivos .col .content_directivos {
+	width: 232px;
+	height: 110px;
+	margin: 0 auto 0 auto;
+}
+.directivos .col .nombre {
+	font-family: frutiger_light;
+	font-size: 25px;
+	line-height: 25px;
+	color: #103063;
+	text-align: center;
+}
+.directivos .col .puesto {
+	font-family: frutiger_bold;
+	font-size: 15px;
+	line-height: 17px;
+	text-align: center;
+	color: #de1e3d;
+}
+.directivos .col .presidente {
+	width: 232px;
+	height: 272px;
+	background: url(../img/presidente.jpg);
+	-webkit-background-size: 232px 272px;
+	background-size: 232px 272px;
+	margin: 0 auto 0 auto;
+}
+.directivos .col .vicepresidente {
+	width: 232px;
+	height: 272px;
+	background: url(../img/vicepresidente.jpg);
+	-webkit-background-size: 232px 272px;
+	background-size: 232px 272px;
+	margin: 0 auto 0 auto;
+}
+.directivos .col .director_ejecutivo {
+	width: 232px;
+	height: 272px;
+	background: url(../img/director_ejecutivo.jpg);
+	-webkit-background-size: 232px 272px;
+	background-size: 232px 272px;
+	margin: 0 auto 0 auto;
+}
+.directivos .col .orphan_drugs {
+	width: 232px;
+	height: 272px;
+	background: url(../img/orphan_drugs.jpg);
+	-webkit-background-size: 232px 272px;
+	background-size: 232px 272px;
+	margin: 0 auto 0 auto;
+}
+.btn_leer_mas {
+	width: 100px;
+	height: 25px;
+	border: 3px solid #103063;
+	background-color: #fff;
+	font-family: frutiger_light;
+	font-size: 15px;
+	text-align: center;
+	margin: 0 auto 50px auto;
+}
+.btn_leer_mas a {
+	color: #000;
+}
+.modal .pleca_roja {
+	width: 100%;
+	height: 10px;
+	background-color: #de1e3d;
+}
+.modal .titulo_modal {
+	width: 100%;
+	height: auto;
+	background-color: #e6e7e8;
+	font-family: frutiger_light;
+	font-size: 35px;
+	line-height: 30px;
+	text-align: center;
+	color: #103063;
+	padding: 15px 0 10px 0;
+	margin: 0;
+}
+.modal .titulo_modal span {
+	font-family: frutiger_bold;
+	font-size: 20px;
+	color: #de1e3d;
+}
+.modal p {
+	width: 90%;
+	font-family: frutiger_light;
+	font-size: 18px;
+	color: #808285;
+	margin: 20px auto 20px auto;
+	
+}
+.cerrar_modal {
+	width: 40px;
+	height: 40px;
+	background: url(../img/cerrar_modal.png);
+	-webkit-background-size: 40px 40px;
+	background-size: 40px 40px;
+	position: absolute;
+	top: 20px;
+	right: 15px;
+}
+/*---------------------------------------------------> /Grupo*/
+/*---------------------------------------------------> Recordati México*/
+#texto_recordati_mexico p {
+	font-family: frutiger_light;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+#texto_recordati_mexico p span {
+	font-size: 40px;
+	line-height: 80px;
+	color: #103063;
+}
+/*---------------------------------------------------> /Recordati México*/
+/*---------------------------------------------------> Política de privacidad*/
+#texto_politica .text_p a {color: #103063;}
+#texto_politica .text_p {
+	font-family: frutiger_light;
+	font-size: 17px;
+	padding-bottom: 50px;
+}
+#texto_politica .text_p h1 {
+	font-size: 40px;
+	color: #103063;
+	margin: 0;
+	padding: 30px 0 0 0;
+}
+#texto_politica .text_p strong {
+	font-family: frutiger_bold;
+	color: #103063;
+}
+#texto_politica .text_p span {
+	color: #000;
+}
+#texto_politica .text_p ul li {
+	list-style: disc;
+	margin-left: 20px;
+	color: #ff0000;
+	margin-bottom: 10px;
+}
+#texto_politica .text_p .list_2 li {
+	margin: 0 0 0 20px;
+}
+#texto_politica .text_p em {
+	font-family: frutiger_bold;
+	font-style: normal;
+}
+#head_politica {
+    width: 100%;
+    min-height: 270px;
+    background: #103063 url(../img/r.png)no-repeat;
+    background-position: left top;
+    background-size: 341px 341px;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+#legales {
+	width: 100%;
+	min-height: 270px;
+	background: url(../img/r.png)no-repeat, url(../img/back_legales.png)no-repeat;
+	background-position: left top, right top;
+	background-size: 341px 341px, 821px 280px;
+	position: relative;
+	background-color: #103063 ;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+/*---------------------------------------------------> /Política de privacidad*/
+/*---------------------------------------------------> Contacto*/
+#texto_contacto p {
+	font-family: frutiger_light;
+	font-size: 18px;
+	color: #666666;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+#texto_contacto p span {
+	font-size: 40px;
+	line-height: 80px;
+	color: #103063;
+}
+#texto_contacto p strong {
+	font-family: frutiger_bold;
+}
+.col_1_con {
+	margin-right: 100px;
+}
+.modal .titulo_form {
+	width: 100%;
+	height: auto;
+	font-family: frutiger_light;
+	font-size: 35px;
+	line-height: 30px;
+	text-align: center;
+	color: #103063;
+	padding: 15px 0 10px 0;
+	margin: 0 0 40px 0;
+}
+.modal .titulo_form span {
+	font-size: 20px;
+}
+
+
+
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #103063;
+   }
+/*---------------------------------------------------> /Contacto*/
+@media screen and (max-width: 400px) {
+	.col_1_con { margin-right: 0; }
+}
+@media screen and (min-width: 768px) {
+    #cont_menu {
+   	display: block;
+   }
+   #icon_menu {
+   	display: none;
+   }
+   .side-nav {transform: translateX(-100%)!important;}
+   /*.logo_recordati {position:absolute; top: 115px !important; left: 80px !important;}*/
+}
+@media screen and (max-width: 768px) { /*tablet*/
+   #cont_menu {
+   	display: none;
+   }
+   #icon_menu {
+   	display: block;
+   }
+   .logo_recordati {padding: 10px 0 0 10px !important;}
+	
+	.textos_header .text_logo {font-size: 20px !important; padding: 0 0 0 25px !important;}
+	.textos_header .leyenda {font-size: 60px !important; padding: 100px 0 0 25px !important;}
+	#cuadro_rojo {width: 100% !important; max-width: 100% !important; padding-left: 25px !important;}
+	.informacion p {padding-left: 25px !important;}
+	.informacion #btn_solicitar {margin-left: 25px !important;}
+	#mision .text_mision_1 {padding-left: 25px !important;}
+
+	#text_logo_acerca { margin: 10px 0 30px 13px !important; }
+	.logo_recordati_2 {margin: 10px 0 0 10px !important;}
+	.margin_especial {margin-bottom: 30px !important;}
+}
+@media screen and (max-width: 1080px) {
+	#flecha {display: none;}
+	#cuadro_rojo { min-width: 100%; }
+}
